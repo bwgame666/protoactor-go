@@ -18,7 +18,7 @@ But be aware that the API might change over time until 1.0.
 This is the Go repository for Proto Actor.
 
 The C# implementation can be found
-here [https://github.com/asynkron/protoactor-dotnet](https://github.com/asynkron/protoactor-dotnet)
+here [https://github.com/bwgame666/protoactor-dotnet](https://github.com/bwgame666/protoactor-dotnet)
 
 ## Design principles:
 

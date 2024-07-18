@@ -7,7 +7,7 @@ package remote
 import (
 	"sync"
 
-	"github.com/asynkron/gofun/set"
+	"github.com/bwgame666/gofun/set"
 )
 
 // TODO: document it

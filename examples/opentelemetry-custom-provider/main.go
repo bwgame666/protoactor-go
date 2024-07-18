@@ -6,7 +6,7 @@ import (
 	"log"
 	"time"
 
-	console "github.com/asynkron/goconsole"
+	console "github.com/bwgame666/goconsole"
 	"github.com/bwgame666/protoactor-go/actor"
 	"go.opentelemetry.io/otel/exporters/stdout/stdoutmetric"
 	"go.opentelemetry.io/otel/sdk/metric"

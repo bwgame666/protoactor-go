@@ -11,7 +11,7 @@ import (
 
 	"github.com/bwgame666/protoactor-go/remote"
 
-	"github.com/asynkron/gofun/set"
+	"github.com/bwgame666/gofun/set"
 	"google.golang.org/protobuf/proto"
 
 	"github.com/bwgame666/protoactor-go/actor"

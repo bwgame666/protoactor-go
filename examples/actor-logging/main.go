@@ -1,7 +1,7 @@
 package main
 
 import (
-	console "github.com/asynkron/goconsole"
+	console "github.com/bwgame666/goconsole"
 	"github.com/bwgame666/protoactor-go/actor"
 	"github.com/lmittmann/tint"
 	slogzap "github.com/samber/slog-zap/v2"

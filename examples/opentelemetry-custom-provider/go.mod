@@ -3,7 +3,7 @@ module opentelemetry-custom-provider
 go 1.21
 
 require (
-	github.com/asynkron/goconsole v0.0.0-20160504192649-bfa12eebf716
+	github.com/bwgame666/goconsole v0.0.0-20160504192649-bfa12eebf716
 	github.com/bwgame666/protoactor-go v0.0.0-20240116091649-93e384a26d0d
 	go.opentelemetry.io/otel v1.22.0
 	go.opentelemetry.io/otel/exporters/stdout/stdoutmetric v0.45.0

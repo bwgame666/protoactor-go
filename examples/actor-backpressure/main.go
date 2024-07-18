@@ -5,7 +5,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	console "github.com/asynkron/goconsole"
+	console "github.com/bwgame666/goconsole"
 	"github.com/bwgame666/protoactor-go/actor"
 )
 

@@ -6,7 +6,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/asynkron/gofun/set"
+	"github.com/bwgame666/gofun/set"
 	"google.golang.org/protobuf/types/known/anypb"
 )
 

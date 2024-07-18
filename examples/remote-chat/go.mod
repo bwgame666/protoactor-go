@@ -3,7 +3,7 @@ module chat
 go 1.21
 
 require (
-	github.com/asynkron/goconsole v0.0.0-20160504192649-bfa12eebf716
+	github.com/bwgame666/goconsole v0.0.0-20160504192649-bfa12eebf716
 	google.golang.org/protobuf v1.31.0
 )
 
@@ -11,7 +11,7 @@ require github.com/bwgame666/protoactor-go v0.0.0-20240116091649-93e384a26d0d
 
 require (
 	github.com/Workiva/go-datastructures v1.1.1 // indirect
-	github.com/asynkron/gofun v0.0.0-20220329210725-34fed760f4c2 // indirect
+	github.com/bwgame666/gofun v0.0.0-20220329210725-34fed760f4c2 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/cespare/xxhash/v2 v2.2.0 // indirect
 	github.com/emirpasic/gods v1.18.1 // indirect

@@ -9,7 +9,7 @@ import (
 
 	"remoterouting/messages"
 
-	console "github.com/asynkron/goconsole"
+	console "github.com/bwgame666/goconsole"
 	"github.com/bwgame666/protoactor-go/actor"
 	"github.com/bwgame666/protoactor-go/remote"
 )

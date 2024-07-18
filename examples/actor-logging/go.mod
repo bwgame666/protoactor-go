@@ -3,7 +3,7 @@ module actorlogging
 go 1.21
 
 require (
-	github.com/asynkron/goconsole v0.0.0-20160504192649-bfa12eebf716
+	github.com/bwgame666/goconsole v0.0.0-20160504192649-bfa12eebf716
 	github.com/lmittmann/tint v1.0.3
 	github.com/samber/slog-zap/v2 v2.1.0
 	go.uber.org/zap v1.26.0

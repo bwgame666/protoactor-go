@@ -6,7 +6,7 @@ import (
 	"math/rand"
 	"time"
 
-	console "github.com/asynkron/goconsole"
+	console "github.com/bwgame666/goconsole"
 	"github.com/bwgame666/protoactor-go/actor"
 	"github.com/bwgame666/protoactor-go/actor/middleware/opentracing"
 	jaegercfg "github.com/uber/jaeger-client-go/config"

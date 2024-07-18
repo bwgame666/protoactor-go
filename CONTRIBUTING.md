@@ -88,7 +88,7 @@ The steps are exactly the same for everyone involved in the project (be it core 
    good commit message would be: `Adding compression support for Manifests #22222` (note the reference to the ticket it
    aimed to resolve).
 1. If it's a new feature, or a change of behaviour, document it on
-   the [Proto.Actor-docs](https://github.com/asynkron/gam-web/tree/master/src/docs), remember, an undocumented feature
+   the [Proto.Actor-docs](https://github.com/bwgame666/gam-web/tree/master/src/docs), remember, an undocumented feature
    is not a feature.
 1. Now it's finally time to [submit the pull request](https://help.github.com/articles/using-pull-requests)!
 1. If you have not already done so, you will be asked by our CLA bot

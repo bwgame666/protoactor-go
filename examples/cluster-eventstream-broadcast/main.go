@@ -9,7 +9,7 @@ import (
 	"github.com/bwgame666/protoactor-go/cluster/clusterproviders/automanaged"
 	"github.com/bwgame666/protoactor-go/cluster/identitylookup/disthash"
 
-	console "github.com/asynkron/goconsole"
+	console "github.com/bwgame666/goconsole"
 	"github.com/bwgame666/protoactor-go/actor"
 	"github.com/bwgame666/protoactor-go/cluster"
 	"github.com/bwgame666/protoactor-go/remote"

@@ -9,7 +9,7 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/asynkron/gofun/set"
+	"github.com/bwgame666/gofun/set"
 	"github.com/bwgame666/protoactor-go/actor"
 	"google.golang.org/protobuf/proto"
 )
