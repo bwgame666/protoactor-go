@@ -2,7 +2,7 @@ package middleware
 
 import (
 	"github.com/bwgame666/protoactor-go/actor"
-	"golang.org/x/exp/slog"
+	"log/slog"
 )
 
 // Logger is message middleware which logs messages before continuing to the next middleware.

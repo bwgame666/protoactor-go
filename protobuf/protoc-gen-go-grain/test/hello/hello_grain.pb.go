@@ -12,7 +12,7 @@ import (
 	cluster "github.com/bwgame666/protoactor-go/cluster"
 	proto "google.golang.org/protobuf/proto"
 	emptypb "google.golang.org/protobuf/types/known/emptypb"
-	slog "golang.org/x/exp/slog"
+	slog "log/slog"
 	time "time"
 )
 

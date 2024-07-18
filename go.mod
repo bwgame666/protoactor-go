@@ -1,6 +1,8 @@
 module github.com/bwgame666/protoactor-go
 
-go 1.20
+go 1.22.0
+
+toolchain go1.22.5
 
 require (
 	github.com/Workiva/go-datastructures v1.1.5

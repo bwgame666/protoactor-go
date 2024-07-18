@@ -6,7 +6,7 @@ import (
 	"github.com/lmittmann/tint"
 	slogzap "github.com/samber/slog-zap/v2"
 	"go.uber.org/zap"
-	"golang.org/x/exp/slog"
+	"log/slog"
 	"os"
 	"time"
 )

@@ -4,7 +4,7 @@ package metrics
 
 import (
 	"fmt"
-	"golang.org/x/exp/slog"
+	"log/slog"
 	"sync"
 
 	"go.opentelemetry.io/otel"

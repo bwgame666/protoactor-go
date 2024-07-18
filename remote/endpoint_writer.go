@@ -2,8 +2,8 @@ package remote
 
 import (
 	"errors"
-	"golang.org/x/exp/slog"
 	"io"
+	"log/slog"
 	"time"
 
 	"github.com/bwgame666/protoactor-go/actor"

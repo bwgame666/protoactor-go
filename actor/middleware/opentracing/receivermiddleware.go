@@ -2,7 +2,7 @@ package opentracing
 
 import (
 	"fmt"
-	"golang.org/x/exp/slog"
+	"log/slog"
 
 	"github.com/bwgame666/protoactor-go/actor"
 )

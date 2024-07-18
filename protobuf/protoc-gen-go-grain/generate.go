@@ -18,7 +18,7 @@ const (
 	timePackage    = protogen.GoImportPath("time")
 	errorsPackage  = protogen.GoImportPath("errors")
 	fmtPackage     = protogen.GoImportPath("fmt")
-	slogPackage    = protogen.GoImportPath("golang.org/x/exp/slog")
+	slogPackage    = protogen.GoImportPath("log/slog")
 	protoPackage   = protogen.GoImportPath("google.golang.org/protobuf/proto")
 	actorPackage   = protogen.GoImportPath("github.com/bwgame666/protoactor-go/actor")
 	clusterPackage = protogen.GoImportPath("github.com/bwgame666/protoactor-go/cluster")

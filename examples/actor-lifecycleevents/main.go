@@ -1,7 +1,7 @@
 package main
 
 import (
-	"golang.org/x/exp/slog"
+	"log/slog"
 	"time"
 
 	console "github.com/bwgame666/goconsole"

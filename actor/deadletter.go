@@ -3,7 +3,7 @@ package actor
 import (
 	"context"
 	"fmt"
-	"golang.org/x/exp/slog"
+	"log/slog"
 	"strings"
 
 	"github.com/bwgame666/protoactor-go/metrics"

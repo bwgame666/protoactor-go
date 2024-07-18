@@ -4,7 +4,7 @@ import (
 	"flag"
 	"fmt"
 	"github.com/bwgame666/protoactor-go/cluster/identitylookup/disthash"
-	"golang.org/x/exp/slog"
+	"log/slog"
 	"sync"
 	"time"
 

@@ -1,7 +1,7 @@
 package zk
 
 import (
-	"golang.org/x/exp/slog"
+	"log/slog"
 	"strings"
 	"testing"
 

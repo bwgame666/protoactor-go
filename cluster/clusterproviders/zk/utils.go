@@ -2,7 +2,7 @@ package zk
 
 import (
 	"fmt"
-	"golang.org/x/exp/slog"
+	"log/slog"
 	"runtime"
 	"strconv"
 	"strings"

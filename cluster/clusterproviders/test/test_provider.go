@@ -1,7 +1,7 @@
 package test
 
 import (
-	"golang.org/x/exp/slog"
+	"log/slog"
 	"sync"
 	"time"
 

@@ -1,7 +1,7 @@
 package actor
 
 import (
-	"golang.org/x/exp/slog"
+	"log/slog"
 	"time"
 
 	"go.opentelemetry.io/otel/metric"

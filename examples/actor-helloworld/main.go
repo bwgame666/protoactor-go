@@ -3,7 +3,7 @@ package main
 import (
 	console "github.com/bwgame666/goconsole"
 	"github.com/bwgame666/protoactor-go/actor"
-	"golang.org/x/exp/slog"
+	"log/slog"
 )
 
 type (

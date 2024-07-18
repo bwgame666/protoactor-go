@@ -1,7 +1,7 @@
 package cluster
 
 import (
-	"golang.org/x/exp/slog"
+	"log/slog"
 	"time"
 
 	"github.com/bwgame666/protoactor-go/actor"

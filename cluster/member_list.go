@@ -2,7 +2,7 @@ package cluster
 
 import (
 	"context"
-	"golang.org/x/exp/slog"
+	"log/slog"
 	"sync"
 
 	"github.com/bwgame666/protoactor-go/actor"

@@ -2,8 +2,8 @@ package remote
 
 import (
 	"fmt"
-	"golang.org/x/exp/slog"
 	"io/ioutil"
+	"log/slog"
 	"net"
 	"time"
 

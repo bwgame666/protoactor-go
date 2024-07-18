@@ -3,7 +3,7 @@ package main
 import (
 	"flag"
 	"fmt"
-	"golang.org/x/exp/slog"
+	"log/slog"
 	"os"
 	"os/signal"
 	"syscall"

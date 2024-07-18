@@ -2,7 +2,7 @@ package opentracing
 
 import (
 	"github.com/bwgame666/protoactor-go/actor"
-	"golang.org/x/exp/slog"
+	"log/slog"
 )
 
 func SenderMiddleware() actor.SenderMiddleware {

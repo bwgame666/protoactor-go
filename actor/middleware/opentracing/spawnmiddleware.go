@@ -3,7 +3,7 @@ package opentracing
 import (
 	"github.com/bwgame666/protoactor-go/actor"
 	olog "github.com/opentracing/opentracing-go/log"
-	"golang.org/x/exp/slog"
+	"log/slog"
 )
 
 func SpawnMiddleware() actor.SpawnMiddleware {

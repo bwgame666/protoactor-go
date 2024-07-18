@@ -3,7 +3,7 @@ package actor
 import (
 	"context"
 	"errors"
-	"golang.org/x/exp/slog"
+	"log/slog"
 	"sync"
 	"sync/atomic"
 	"time"

@@ -2,9 +2,9 @@ package router
 
 import (
 	"fmt"
-	"golang.org/x/exp/slog"
 	"io/ioutil"
 	"log"
+	"log/slog"
 	"time"
 
 	"github.com/bwgame666/protoactor-go/ctxext"

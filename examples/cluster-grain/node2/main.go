@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"golang.org/x/exp/slog"
+	"log/slog"
 
 	"cluster-grain/shared"
 

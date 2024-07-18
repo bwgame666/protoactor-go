@@ -3,7 +3,7 @@ package automanaged
 import (
 	"encoding/json"
 	"fmt"
-	"golang.org/x/exp/slog"
+	"log/slog"
 	"net"
 	"net/http"
 	"sync"

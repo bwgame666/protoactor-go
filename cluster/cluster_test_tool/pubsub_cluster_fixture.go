@@ -2,7 +2,7 @@ package cluster_test_tool
 
 import (
 	"errors"
-	"golang.org/x/exp/slog"
+	"log/slog"
 	"math/rand"
 	"strconv"
 	"sync"

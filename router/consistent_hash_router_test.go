@@ -1,7 +1,7 @@
 package router_test
 
 import (
-	"golang.org/x/exp/slog"
+	"log/slog"
 	"strconv"
 	"sync"
 	"sync/atomic"

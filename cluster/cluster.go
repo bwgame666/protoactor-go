@@ -1,7 +1,7 @@
 package cluster
 
 import (
-	"golang.org/x/exp/slog"
+	"log/slog"
 	"time"
 
 	"google.golang.org/protobuf/types/known/emptypb"

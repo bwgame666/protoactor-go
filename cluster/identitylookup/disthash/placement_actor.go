@@ -1,7 +1,7 @@
 package disthash
 
 import (
-	"golang.org/x/exp/slog"
+	"log/slog"
 
 	"github.com/bwgame666/protoactor-go/actor"
 	clustering "github.com/bwgame666/protoactor-go/cluster"

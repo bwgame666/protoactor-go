@@ -2,7 +2,7 @@ package cluster
 
 import (
 	"context"
-	"golang.org/x/exp/slog"
+	"log/slog"
 	"time"
 
 	"google.golang.org/protobuf/proto"

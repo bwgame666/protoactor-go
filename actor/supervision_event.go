@@ -1,7 +1,7 @@
 package actor
 
 import (
-	"golang.org/x/exp/slog"
+	"log/slog"
 )
 
 // SupervisorEvent is sent on the EventStream when a supervisor have applied a directive to a failing child actor

@@ -2,7 +2,7 @@ package consul
 
 import (
 	"fmt"
-	"golang.org/x/exp/slog"
+	"log/slog"
 	"sync"
 	"time"
 
