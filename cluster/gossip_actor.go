@@ -6,7 +6,7 @@ import (
 	"golang.org/x/exp/slog"
 	"time"
 
-	"github.com/bwgame666/gofun/set"
+	"github.com/asynkron/gofun/set"
 	"github.com/bwgame666/protoactor-go/actor"
 )
 

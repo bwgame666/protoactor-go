@@ -1,6 +1,6 @@
 package cluster
 
-import "github.com/bwgame666/gofun/set"
+import "github.com/asynkron/gofun/set"
 
 type MemberSet struct {
 	topologyHash uint64

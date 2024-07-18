@@ -6,7 +6,7 @@ import (
 
 	"google.golang.org/protobuf/types/known/emptypb"
 
-	"github.com/bwgame666/gofun/set"
+	"github.com/asynkron/gofun/set"
 
 	"github.com/bwgame666/protoactor-go/actor"
 	"github.com/bwgame666/protoactor-go/extensions"
