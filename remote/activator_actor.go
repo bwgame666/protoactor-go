@@ -3,10 +3,10 @@ package remote
 import (
 	"errors"
 	"fmt"
-	"log/slog"
+	"golang.org/x/exp/slog"
 	"time"
 
-	"github.com/asynkron/protoactor-go/actor"
+	"github.com/bwgame666/protoactor-go/actor"
 )
 
 // Register a known actor props by name

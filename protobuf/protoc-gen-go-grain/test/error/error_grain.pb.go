@@ -8,7 +8,7 @@ package hello
 
 import (
 	fmt "fmt"
-	cluster "github.com/asynkron/protoactor-go/cluster"
+	cluster "github.com/bwgame666/protoactor-go/cluster"
 )
 
 func ErrUserNotFound(format string, args ...interface{}) *cluster.GrainErrorResponse {

@@ -3,7 +3,7 @@ package automanaged
 import (
 	"encoding/json"
 	"fmt"
-	"log/slog"
+	"golang.org/x/exp/slog"
 	"net"
 	"net/http"
 	"sync"
@@ -11,7 +11,7 @@ import (
 
 	"golang.org/x/net/context"
 
-	"github.com/asynkron/protoactor-go/cluster"
+	"github.com/bwgame666/protoactor-go/cluster"
 	"github.com/labstack/echo"
 	"golang.org/x/sync/errgroup"
 )

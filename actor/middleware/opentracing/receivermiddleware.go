@@ -2,10 +2,9 @@ package opentracing
 
 import (
 	"fmt"
-	"log/slog"
+	"golang.org/x/exp/slog"
 
-	"github.com/asynkron/protoactor-go/actor"
-	"github.com/opentracing/opentracing-go"
+	"github.com/bwgame666/protoactor-go/actor"
 )
 
 func ReceiverMiddleware() actor.ReceiverMiddleware {

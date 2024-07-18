@@ -3,7 +3,7 @@ package cluster
 import (
 	"testing"
 
-	"github.com/asynkron/protoactor-go/actor"
+	"github.com/bwgame666/protoactor-go/actor"
 )
 
 func TestPidCacheValue_Set_Test(t *testing.T) {

@@ -2,16 +2,16 @@ package main
 
 import (
 	"fmt"
-	"log/slog"
+	"golang.org/x/exp/slog"
 
 	"cluster-grain/shared"
 
 	console "github.com/asynkron/goconsole"
-	"github.com/asynkron/protoactor-go/actor"
-	"github.com/asynkron/protoactor-go/cluster"
-	"github.com/asynkron/protoactor-go/cluster/clusterproviders/consul"
-	"github.com/asynkron/protoactor-go/cluster/identitylookup/disthash"
-	"github.com/asynkron/protoactor-go/remote"
+	"github.com/bwgame666/protoactor-go/actor"
+	"github.com/bwgame666/protoactor-go/cluster"
+	"github.com/bwgame666/protoactor-go/cluster/clusterproviders/consul"
+	"github.com/bwgame666/protoactor-go/cluster/identitylookup/disthash"
+	"github.com/bwgame666/protoactor-go/remote"
 )
 
 type HelloGrain struct{}

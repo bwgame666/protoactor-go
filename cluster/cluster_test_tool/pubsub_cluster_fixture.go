@@ -2,15 +2,15 @@ package cluster_test_tool
 
 import (
 	"errors"
-	"log/slog"
+	"golang.org/x/exp/slog"
 	"math/rand"
 	"strconv"
 	"sync"
 	"testing"
 	"time"
 
-	"github.com/asynkron/protoactor-go/actor"
-	"github.com/asynkron/protoactor-go/cluster"
+	"github.com/bwgame666/protoactor-go/actor"
+	"github.com/bwgame666/protoactor-go/cluster"
 	"github.com/stretchr/testify/assert"
 	"golang.org/x/net/context"
 	"google.golang.org/protobuf/proto"

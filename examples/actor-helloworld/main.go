@@ -2,8 +2,8 @@ package main
 
 import (
 	console "github.com/asynkron/goconsole"
-	"github.com/asynkron/protoactor-go/actor"
-	"log/slog"
+	"github.com/bwgame666/protoactor-go/actor"
+	"golang.org/x/exp/slog"
 )
 
 type (

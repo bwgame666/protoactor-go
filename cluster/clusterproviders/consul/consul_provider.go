@@ -2,13 +2,13 @@ package consul
 
 import (
 	"fmt"
-	"log/slog"
+	"golang.org/x/exp/slog"
 	"sync"
 	"time"
 
-	"github.com/asynkron/protoactor-go/actor"
+	"github.com/bwgame666/protoactor-go/actor"
 
-	"github.com/asynkron/protoactor-go/cluster"
+	"github.com/bwgame666/protoactor-go/cluster"
 	"github.com/hashicorp/consul/api"
 )
 

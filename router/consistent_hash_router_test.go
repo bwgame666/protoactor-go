@@ -1,15 +1,15 @@
 package router_test
 
 import (
-	"log/slog"
+	"golang.org/x/exp/slog"
 	"strconv"
 	"sync"
 	"sync/atomic"
 	"testing"
 	"time"
 
-	"github.com/asynkron/protoactor-go/actor"
-	"github.com/asynkron/protoactor-go/router"
+	"github.com/bwgame666/protoactor-go/actor"
+	"github.com/bwgame666/protoactor-go/router"
 )
 
 var system = actor.NewActorSystem()

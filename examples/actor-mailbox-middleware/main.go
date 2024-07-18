@@ -1,10 +1,10 @@
 package main
 
 import (
-	"log/slog"
+	"golang.org/x/exp/slog"
 
 	console "github.com/asynkron/goconsole"
-	"github.com/asynkron/protoactor-go/actor"
+	"github.com/bwgame666/protoactor-go/actor"
 )
 
 type mailboxLogger struct {

@@ -9,10 +9,10 @@ package shared
 import (
 	errors "errors"
 	fmt "fmt"
-	actor "github.com/asynkron/protoactor-go/actor"
-	cluster "github.com/asynkron/protoactor-go/cluster"
+	actor "github.com/bwgame666/protoactor-go/actor"
+	cluster "github.com/bwgame666/protoactor-go/cluster"
 	proto "google.golang.org/protobuf/proto"
-	slog "log/slog"
+	slog "golang.org/x/exp/slog"
 	time "time"
 )
 

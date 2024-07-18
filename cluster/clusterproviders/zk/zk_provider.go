@@ -3,13 +3,13 @@ package zk
 import (
 	"context"
 	"fmt"
-	"log/slog"
+	"golang.org/x/exp/slog"
 	"net"
 	"strconv"
 	"strings"
 	"time"
 
-	"github.com/asynkron/protoactor-go/cluster"
+	"github.com/bwgame666/protoactor-go/cluster"
 	"github.com/go-zookeeper/zk"
 )
 

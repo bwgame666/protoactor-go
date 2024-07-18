@@ -3,7 +3,7 @@ module kubernetes-sample
 go 1.21
 
 require (
-	github.com/asynkron/protoactor-go v0.0.0-20240116091649-93e384a26d0d
+	github.com/bwgame666/protoactor-go v0.0.0-20240116091649-93e384a26d0d
 	google.golang.org/protobuf v1.31.0
 	k8s.io/utils v0.0.0-20230406110748-d93618cff8a2
 )

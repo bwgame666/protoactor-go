@@ -3,7 +3,7 @@ package etcd
 import (
 	"encoding/json"
 
-	"github.com/asynkron/protoactor-go/cluster"
+	"github.com/bwgame666/protoactor-go/cluster"
 )
 
 type Node struct {

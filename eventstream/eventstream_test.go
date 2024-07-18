@@ -3,7 +3,7 @@ package eventstream_test
 import (
 	"testing"
 
-	"github.com/asynkron/protoactor-go/eventstream"
+	"github.com/bwgame666/protoactor-go/eventstream"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -1,11 +1,11 @@
 package test
 
 import (
-	"log/slog"
+	"golang.org/x/exp/slog"
 	"sync"
 	"time"
 
-	"github.com/asynkron/protoactor-go/cluster"
+	"github.com/bwgame666/protoactor-go/cluster"
 	"golang.org/x/exp/maps"
 )
 

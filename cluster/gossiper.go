@@ -5,16 +5,16 @@ package cluster
 import (
 	"errors"
 	"fmt"
-	"log/slog"
+	"golang.org/x/exp/slog"
 	"strings"
 	"time"
 
-	"github.com/asynkron/protoactor-go/remote"
+	"github.com/bwgame666/protoactor-go/remote"
 
 	"github.com/asynkron/gofun/set"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/asynkron/protoactor-go/actor"
+	"github.com/bwgame666/protoactor-go/actor"
 	"google.golang.org/protobuf/types/known/anypb"
 )
 

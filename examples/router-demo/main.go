@@ -1,14 +1,14 @@
 package main
 
 import (
+	"golang.org/x/exp/slog"
 	"log"
-	"log/slog"
 	"strconv"
 	"time"
 
 	console "github.com/asynkron/goconsole"
-	"github.com/asynkron/protoactor-go/actor"
-	"github.com/asynkron/protoactor-go/router"
+	"github.com/bwgame666/protoactor-go/actor"
+	"github.com/bwgame666/protoactor-go/router"
 )
 
 type myMessage struct{ i int }

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/asynkron/protoactor-go/protobuf/protoc-gen-go-grain/options"
+	"github.com/bwgame666/protoactor-go/protobuf/protoc-gen-go-grain/options"
 	"golang.org/x/text/cases"
 	"golang.org/x/text/language"
 	"google.golang.org/protobuf/compiler/protogen"
@@ -18,10 +18,10 @@ const (
 	timePackage    = protogen.GoImportPath("time")
 	errorsPackage  = protogen.GoImportPath("errors")
 	fmtPackage     = protogen.GoImportPath("fmt")
-	slogPackage    = protogen.GoImportPath("log/slog")
+	slogPackage    = protogen.GoImportPath("golang.org/x/exp/slog")
 	protoPackage   = protogen.GoImportPath("google.golang.org/protobuf/proto")
-	actorPackage   = protogen.GoImportPath("github.com/asynkron/protoactor-go/actor")
-	clusterPackage = protogen.GoImportPath("github.com/asynkron/protoactor-go/cluster")
+	actorPackage   = protogen.GoImportPath("github.com/bwgame666/protoactor-go/actor")
+	clusterPackage = protogen.GoImportPath("github.com/bwgame666/protoactor-go/cluster")
 )
 
 var (

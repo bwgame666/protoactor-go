@@ -6,7 +6,7 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/asynkron/protoactor-go/protobuf/protoc-gen-go-grain/options"
+	"github.com/bwgame666/protoactor-go/protobuf/protoc-gen-go-grain/options"
 )
 
 //go:embed templates/grain.tmpl

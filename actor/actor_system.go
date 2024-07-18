@@ -1,13 +1,12 @@
 package actor
 
 import (
-	"log/slog"
+	"golang.org/x/exp/slog"
 	"net"
 	"strconv"
 
-	"github.com/asynkron/protoactor-go/eventstream"
-	"github.com/asynkron/protoactor-go/extensions"
-	"github.com/lithammer/shortuuid/v4"
+	"github.com/bwgame666/protoactor-go/eventstream"
+	"github.com/bwgame666/protoactor-go/extensions"
 )
 
 //goland:noinspection GoNameStartsWithPackageName

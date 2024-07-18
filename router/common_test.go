@@ -2,14 +2,14 @@ package router
 
 import (
 	"fmt"
+	"golang.org/x/exp/slog"
 	"io/ioutil"
 	"log"
-	"log/slog"
 	"time"
 
-	"github.com/asynkron/protoactor-go/ctxext"
+	"github.com/bwgame666/protoactor-go/ctxext"
 
-	"github.com/asynkron/protoactor-go/actor"
+	"github.com/bwgame666/protoactor-go/actor"
 	"github.com/stretchr/testify/mock"
 )
 

@@ -2,12 +2,12 @@ package cluster
 
 import (
 	"context"
-	"log/slog"
+	"golang.org/x/exp/slog"
 	"sync"
 
-	"github.com/asynkron/protoactor-go/actor"
-	"github.com/asynkron/protoactor-go/eventstream"
-	"github.com/asynkron/protoactor-go/remote"
+	"github.com/bwgame666/protoactor-go/actor"
+	"github.com/bwgame666/protoactor-go/eventstream"
+	"github.com/bwgame666/protoactor-go/remote"
 	"google.golang.org/protobuf/types/known/anypb"
 )
 

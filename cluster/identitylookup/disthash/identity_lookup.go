@@ -1,8 +1,8 @@
 package disthash
 
 import (
-	"github.com/asynkron/protoactor-go/actor"
-	"github.com/asynkron/protoactor-go/cluster"
+	"github.com/bwgame666/protoactor-go/actor"
+	"github.com/bwgame666/protoactor-go/cluster"
 )
 
 type IdentityLookup struct {

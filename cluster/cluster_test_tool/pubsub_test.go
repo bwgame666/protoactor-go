@@ -10,8 +10,8 @@ package cluster_test_tool
 //	"testing"
 //	"time"
 //
-//	"github.com/asynkron/protoactor-go/actor"
-//	"github.com/asynkron/protoactor-go/cluster"
+//	"github.com/bwgame666/protoactor-go/actor"
+//	"github.com/bwgame666/protoactor-go/cluster"
 //	"github.com/stretchr/testify/suite"
 //)
 //

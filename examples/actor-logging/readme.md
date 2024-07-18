@@ -16,7 +16,7 @@ To run this example, make sure you have:
 
 Install the required libraries using:
 ```bash
-go get -u github.com/asynkron/protoactor-go
+go get -u github.com/bwgame666/protoactor-go
 go get -u github.com/lmittmann/tint
 go get -u go.uber.org/zap
 ```

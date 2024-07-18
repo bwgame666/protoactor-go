@@ -3,7 +3,7 @@ package actor
 import (
 	"fmt"
 	"github.com/lmittmann/tint"
-	"log/slog"
+	"golang.org/x/exp/slog"
 	"net/http"
 	"os"
 	"time"

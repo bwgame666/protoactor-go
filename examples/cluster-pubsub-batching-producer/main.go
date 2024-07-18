@@ -7,11 +7,11 @@ import (
 	"time"
 
 	console "github.com/asynkron/goconsole"
-	"github.com/asynkron/protoactor-go/actor"
-	"github.com/asynkron/protoactor-go/cluster"
-	"github.com/asynkron/protoactor-go/cluster/clusterproviders/test"
-	"github.com/asynkron/protoactor-go/cluster/identitylookup/disthash"
-	"github.com/asynkron/protoactor-go/remote"
+	"github.com/bwgame666/protoactor-go/actor"
+	"github.com/bwgame666/protoactor-go/cluster"
+	"github.com/bwgame666/protoactor-go/cluster/clusterproviders/test"
+	"github.com/bwgame666/protoactor-go/cluster/identitylookup/disthash"
+	"github.com/bwgame666/protoactor-go/remote"
 )
 
 func main() {

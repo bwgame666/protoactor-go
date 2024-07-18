@@ -1,8 +1,8 @@
 package remote
 
 import (
-	"github.com/asynkron/protoactor-go/actor"
-	"log/slog"
+	"github.com/bwgame666/protoactor-go/actor"
+	"golang.org/x/exp/slog"
 )
 
 func newEndpointWatcher(remote *Remote, address string) actor.Producer {

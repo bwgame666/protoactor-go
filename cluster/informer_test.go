@@ -2,7 +2,7 @@ package cluster
 
 import (
 	"fmt"
-	"log/slog"
+	"golang.org/x/exp/slog"
 	"sync"
 	"testing"
 

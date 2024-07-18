@@ -1,9 +1,9 @@
 package opentracing
 
 import (
-	"github.com/asynkron/protoactor-go/actor"
+	"github.com/bwgame666/protoactor-go/actor"
 	olog "github.com/opentracing/opentracing-go/log"
-	"log/slog"
+	"golang.org/x/exp/slog"
 )
 
 func SpawnMiddleware() actor.SpawnMiddleware {

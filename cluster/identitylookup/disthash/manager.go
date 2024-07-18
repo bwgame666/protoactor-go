@@ -1,12 +1,12 @@
 package disthash
 
 import (
-	"log/slog"
+	"golang.org/x/exp/slog"
 	"time"
 
-	"github.com/asynkron/protoactor-go/actor"
-	clustering "github.com/asynkron/protoactor-go/cluster"
-	"github.com/asynkron/protoactor-go/eventstream"
+	"github.com/bwgame666/protoactor-go/actor"
+	clustering "github.com/bwgame666/protoactor-go/cluster"
+	"github.com/bwgame666/protoactor-go/eventstream"
 )
 
 const (

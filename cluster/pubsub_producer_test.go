@@ -2,7 +2,7 @@ package cluster
 
 import (
 	"context"
-	"log/slog"
+	"golang.org/x/exp/slog"
 	"testing"
 	"time"
 

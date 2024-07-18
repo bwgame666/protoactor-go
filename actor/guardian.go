@@ -2,7 +2,7 @@ package actor
 
 import (
 	"errors"
-	"log/slog"
+	"golang.org/x/exp/slog"
 	"sync"
 )
 

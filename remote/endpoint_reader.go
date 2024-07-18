@@ -2,12 +2,12 @@ package remote
 
 import (
 	"errors"
+	"golang.org/x/exp/slog"
 	"io"
-	"log/slog"
 
 	"google.golang.org/protobuf/proto"
 
-	"github.com/asynkron/protoactor-go/actor"
+	"github.com/bwgame666/protoactor-go/actor"
 	"golang.org/x/net/context"
 )
 

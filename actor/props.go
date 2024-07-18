@@ -4,9 +4,9 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	"log/slog"
+	"golang.org/x/exp/slog"
 
-	"github.com/asynkron/protoactor-go/metrics"
+	"github.com/bwgame666/protoactor-go/metrics"
 	"go.opentelemetry.io/otel"
 	"go.opentelemetry.io/otel/metric"
 )

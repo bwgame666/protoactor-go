@@ -4,11 +4,11 @@ package actor
 
 import (
 	"fmt"
-	"log/slog"
+	"golang.org/x/exp/slog"
 	"strings"
 
-	"github.com/asynkron/protoactor-go/extensions"
-	"github.com/asynkron/protoactor-go/metrics"
+	"github.com/bwgame666/protoactor-go/extensions"
+	"github.com/bwgame666/protoactor-go/metrics"
 	"go.opentelemetry.io/otel"
 	"go.opentelemetry.io/otel/attribute"
 	"go.opentelemetry.io/otel/metric"

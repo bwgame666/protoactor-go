@@ -3,7 +3,7 @@ package cluster
 import (
 	"time"
 
-	"github.com/asynkron/protoactor-go/actor"
+	"github.com/bwgame666/protoactor-go/actor"
 )
 
 const (

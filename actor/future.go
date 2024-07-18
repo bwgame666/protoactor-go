@@ -3,13 +3,13 @@ package actor
 import (
 	"context"
 	"errors"
-	"log/slog"
+	"golang.org/x/exp/slog"
 	"sync"
 	"sync/atomic"
 	"time"
 	"unsafe"
 
-	"github.com/asynkron/protoactor-go/metrics"
+	"github.com/bwgame666/protoactor-go/metrics"
 	"go.opentelemetry.io/otel/attribute"
 	"go.opentelemetry.io/otel/metric"
 )

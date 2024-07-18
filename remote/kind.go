@@ -1,6 +1,6 @@
 package remote
 
-import "github.com/asynkron/protoactor-go/actor"
+import "github.com/bwgame666/protoactor-go/actor"
 
 // Kind is the configuration for a kind
 type Kind struct {

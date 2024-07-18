@@ -4,13 +4,13 @@ package cluster
 
 import (
 	"fmt"
-	"log/slog"
+	"golang.org/x/exp/slog"
 	"math/rand"
 	"reflect"
 	"time"
 
 	"github.com/asynkron/gofun/set"
-	"github.com/asynkron/protoactor-go/actor"
+	"github.com/bwgame666/protoactor-go/actor"
 	"google.golang.org/protobuf/proto"
 )
 

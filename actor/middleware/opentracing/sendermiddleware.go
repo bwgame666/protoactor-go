@@ -1,9 +1,8 @@
 package opentracing
 
 import (
-	"github.com/asynkron/protoactor-go/actor"
-	"github.com/opentracing/opentracing-go"
-	"log/slog"
+	"github.com/bwgame666/protoactor-go/actor"
+	"golang.org/x/exp/slog"
 )
 
 func SenderMiddleware() actor.SenderMiddleware {

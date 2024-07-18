@@ -1,13 +1,13 @@
 package cluster
 
 import (
-	"log/slog"
+	"golang.org/x/exp/slog"
 	"sync"
 	"sync/atomic"
 	"time"
 
-	"github.com/asynkron/protoactor-go/actor"
-	"github.com/asynkron/protoactor-go/internal/queue/mpsc"
+	"github.com/bwgame666/protoactor-go/actor"
+	"github.com/bwgame666/protoactor-go/internal/queue/mpsc"
 	"golang.org/x/net/context"
 	"google.golang.org/protobuf/proto"
 )

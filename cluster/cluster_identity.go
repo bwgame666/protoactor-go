@@ -1,8 +1,8 @@
 package cluster
 
 import (
-	"github.com/asynkron/protoactor-go/actor"
-	"github.com/asynkron/protoactor-go/ctxext"
+	"github.com/bwgame666/protoactor-go/actor"
+	"github.com/bwgame666/protoactor-go/ctxext"
 )
 
 func (ci *ClusterIdentity) AsKey() string {

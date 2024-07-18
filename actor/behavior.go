@@ -1,7 +1,7 @@
 package actor
 
 import (
-	"log/slog"
+	"golang.org/x/exp/slog"
 )
 
 type Behavior []ReceiveFunc

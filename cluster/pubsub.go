@@ -3,8 +3,8 @@ package cluster
 import (
 	"time"
 
-	"github.com/asynkron/protoactor-go/actor"
-	"github.com/asynkron/protoactor-go/extensions"
+	"github.com/bwgame666/protoactor-go/actor"
+	"github.com/bwgame666/protoactor-go/extensions"
 )
 
 const PubSubDeliveryName = "$pubsub-delivery"

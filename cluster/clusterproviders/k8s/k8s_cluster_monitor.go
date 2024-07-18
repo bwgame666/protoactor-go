@@ -1,11 +1,11 @@
 package k8s
 
 import (
-	"log/slog"
+	"golang.org/x/exp/slog"
 	"time"
 
-	"github.com/asynkron/protoactor-go/actor"
-	"github.com/asynkron/protoactor-go/scheduler"
+	"github.com/bwgame666/protoactor-go/actor"
+	"github.com/bwgame666/protoactor-go/scheduler"
 )
 
 type k8sClusterMonitorActor struct {

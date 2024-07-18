@@ -1,11 +1,11 @@
 package zk
 
 import (
-	"log/slog"
+	"golang.org/x/exp/slog"
 	"strings"
 	"testing"
 
-	"github.com/asynkron/protoactor-go/cluster"
+	"github.com/bwgame666/protoactor-go/cluster"
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/suite"
 )

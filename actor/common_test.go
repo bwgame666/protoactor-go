@@ -2,10 +2,10 @@ package actor
 
 import (
 	"fmt"
-	"log/slog"
+	"golang.org/x/exp/slog"
 	"time"
 
-	"github.com/asynkron/protoactor-go/ctxext"
+	"github.com/bwgame666/protoactor-go/ctxext"
 
 	"github.com/stretchr/testify/mock"
 )

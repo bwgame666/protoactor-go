@@ -3,8 +3,7 @@ package opentracing
 import (
 	"sync"
 
-	"github.com/asynkron/protoactor-go/actor"
-	"github.com/opentracing/opentracing-go"
+	"github.com/bwgame666/protoactor-go/actor"
 )
 
 var parentSpans = sync.Map{}

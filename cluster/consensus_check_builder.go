@@ -4,7 +4,7 @@ package cluster
 
 import (
 	"fmt"
-	"log/slog"
+	"golang.org/x/exp/slog"
 	"strings"
 
 	"google.golang.org/protobuf/types/known/anypb"

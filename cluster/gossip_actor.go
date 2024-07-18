@@ -3,11 +3,11 @@
 package cluster
 
 import (
-	"log/slog"
+	"golang.org/x/exp/slog"
 	"time"
 
 	"github.com/asynkron/gofun/set"
-	"github.com/asynkron/protoactor-go/actor"
+	"github.com/bwgame666/protoactor-go/actor"
 )
 
 // convenience customary type to represent an empty value

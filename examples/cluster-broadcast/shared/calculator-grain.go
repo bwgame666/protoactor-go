@@ -1,7 +1,7 @@
 package shared
 
 import (
-	"github.com/asynkron/protoactor-go/cluster"
+	"github.com/bwgame666/protoactor-go/cluster"
 )
 
 type CalcGrain struct {

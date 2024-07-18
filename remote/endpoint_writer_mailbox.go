@@ -4,10 +4,10 @@ import (
 	"runtime"
 	"sync/atomic"
 
-	"github.com/asynkron/protoactor-go/actor"
+	"github.com/bwgame666/protoactor-go/actor"
 
-	"github.com/asynkron/protoactor-go/internal/queue/goring"
-	"github.com/asynkron/protoactor-go/internal/queue/mpsc"
+	"github.com/bwgame666/protoactor-go/internal/queue/goring"
+	"github.com/bwgame666/protoactor-go/internal/queue/mpsc"
 )
 
 const (

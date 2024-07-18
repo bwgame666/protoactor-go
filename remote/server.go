@@ -2,14 +2,14 @@ package remote
 
 import (
 	"fmt"
+	"golang.org/x/exp/slog"
 	"io/ioutil"
-	"log/slog"
 	"net"
 	"time"
 
-	"github.com/asynkron/protoactor-go/extensions"
+	"github.com/bwgame666/protoactor-go/extensions"
 
-	"github.com/asynkron/protoactor-go/actor"
+	"github.com/bwgame666/protoactor-go/actor"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/grpclog"
 )

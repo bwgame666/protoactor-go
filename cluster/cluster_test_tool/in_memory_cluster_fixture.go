@@ -1,8 +1,8 @@
 package cluster_test_tool
 
 import (
-	"github.com/asynkron/protoactor-go/cluster"
-	"github.com/asynkron/protoactor-go/cluster/clusterproviders/test"
+	"github.com/bwgame666/protoactor-go/cluster"
+	"github.com/bwgame666/protoactor-go/cluster/clusterproviders/test"
 )
 
 // NewBaseInMemoryClusterFixture creates a new in memory cluster fixture

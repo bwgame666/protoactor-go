@@ -3,14 +3,14 @@ package etcd
 import (
 	"context"
 	"fmt"
-	"log/slog"
+	"golang.org/x/exp/slog"
 	"net"
 	"strconv"
 	"strings"
 	"sync/atomic"
 	"time"
 
-	"github.com/asynkron/protoactor-go/cluster"
+	"github.com/bwgame666/protoactor-go/cluster"
 	clientv3 "go.etcd.io/etcd/client/v3"
 )
 
