@@ -7,6 +7,7 @@ import (
 
 	"github.com/bwgame666/protoactor-go/eventstream"
 	"github.com/bwgame666/protoactor-go/extensions"
+	"github.com/lithammer/shortuuid/v4"
 )
 
 //goland:noinspection GoNameStartsWithPackageName
