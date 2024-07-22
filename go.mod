@@ -2,8 +2,6 @@ module github.com/bwgame666/protoactor-go
 
 go 1.22.0
 
-toolchain go1.22.5
-
 require (
 	github.com/Workiva/go-datastructures v1.1.5
 	github.com/asynkron/gofun v0.0.0-20220329210725-34fed760f4c2
